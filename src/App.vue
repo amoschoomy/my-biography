@@ -1,5 +1,6 @@
 <script setup lang="ts">
-// import HelloWorld from "./components/HelloWorld.vue";
+import Home from "./components/Home.vue";
+import AboutMe from "./components/AboutMe.vue";
 </script>
 
 <template>
@@ -17,20 +18,20 @@
     <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
       <div class="collapse navbar-collapse text-center" id="navbarsExample11">
         <div class="navbar-nav">
-          <li class="nav-item active mx-5">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item mx-5">
-            <a class="nav-link" href="#">About Me</a>
-          </li>
-          <li class="nav-item mx-5">
-            <a class="nav-link" href="#">Experience and Education</a>
-          </li>
-          <li class="nav-item mx-5">
-            <a class="nav-link" href="#">Contact Me</a>
-          </li>
+          <router-link to="/" class="nav-item nav-link mx-5">Home</router-link>
+          <router-link to="/AboutMe" class="nav-item nav-link mx-5"
+            >About Me</router-link
+          >
+          <router-link to="/ExpAndEdu" class="nav-item nav-link mx-5"
+            >Experience and Education</router-link
+          >
+          <router-link to="/ContactMe" class="nav-item nav-link mx-5"
+            >Contact Me</router-link
+          >
         </div>
       </div>
     </div>
   </nav>
+  <Home msg="Amos Choo" />
+  <router-view />
 </template>
