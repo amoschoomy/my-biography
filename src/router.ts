@@ -10,6 +10,12 @@ const routes = [
     path: "/",
     name: "Home",
     component: HomeVue,
+    props: {
+      name: "Amos Choo",
+      age: "22",
+      title: "Backend Developer",
+      location: "Selangor, Malaysia",
+    },
   },
 
   {

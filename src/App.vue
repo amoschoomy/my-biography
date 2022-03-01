@@ -1,7 +1,4 @@
-<script setup lang="ts">
-import Home from "./components/Home.vue";
-import AboutMe from "./components/AboutMe.vue";
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <nav class="navbar navbar-expand-sm navbar-light bg-light">
@@ -32,6 +29,5 @@ import AboutMe from "./components/AboutMe.vue";
       </div>
     </div>
   </nav>
-  <Home msg="Amos Choo" />
-  <router-view />
+  <router-view></router-view>
 </template>
