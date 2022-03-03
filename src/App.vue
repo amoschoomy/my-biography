@@ -16,7 +16,7 @@
       <div class="collapse navbar-collapse text-center" id="navbarsExample11">
         <div class="navbar-nav">
           <router-link to="/" class="nav-item nav-link mx-5">Home</router-link>
-          <router-link to="/AboutMe" class="nav-item nav-link mx-5"
+          <router-link to="/about-me" class="nav-item nav-link mx-5"
             >About Me</router-link
           >
           <router-link to="/ExpAndEdu" class="nav-item nav-link mx-5"
