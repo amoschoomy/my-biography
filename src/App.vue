@@ -19,7 +19,9 @@
           <router-link to="/about-me" class="nav-item nav-link mx-5"
             >About Me</router-link
           >
-          <router-link to="/ExpAndEdu" class="nav-item nav-link mx-5"
+          <router-link
+            to="/experience-and-education"
+            class="nav-item nav-link mx-5"
             >Experience and Education</router-link
           >
           <router-link to="/ContactMe" class="nav-item nav-link mx-5"

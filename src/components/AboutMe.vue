@@ -36,7 +36,8 @@
           <p>
             My current and future plans are to develop Android applications,
             learn about Flutter and cross platform mobile development and lastly
-            experiment with Pygame/RenPy/Unreal Engine/Unity for a start in game development as a self interest.
+            experiment with Pygame/RenPy/Unreal Engine/Unity for a start in game
+            development as a self interest.
           </p>
         </div>
       </div>

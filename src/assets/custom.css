@@ -9,3 +9,7 @@ body {
 .mt-8 {
   margin-top: 8rem;
 }
+
+li:not(:last-child) { 
+    margin-bottom: 2rem;  
+ }
