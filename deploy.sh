@@ -17,6 +17,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git subtree push --prefix dist https://github.com/amoschoomy/my-biography.git main:gh-pages
+git subtree push --prefix dist https://github.com/amoschoomy/my-biography.git gh-pages
 
 cd /
