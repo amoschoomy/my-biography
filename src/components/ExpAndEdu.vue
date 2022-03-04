@@ -20,8 +20,10 @@
           </li>
         </div>
       </div>
-      <p class="mt-4">For more details, download my full resume below in pdf format</p>
       <div class="col"></div>
+      <p class="mt-4">
+        For more details, download my full resume below in pdf format
+      </p>
     </div>
   </div>
 </template>

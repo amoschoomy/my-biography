@@ -24,7 +24,7 @@
             class="nav-item nav-link mx-5"
             >Experience and Education</router-link
           >
-          <router-link to="/ContactMe" class="nav-item nav-link mx-5"
+          <router-link to="/contact-me" class="nav-item nav-link mx-5"
             >Contact Me</router-link
           >
         </div>
