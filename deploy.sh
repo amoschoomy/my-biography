@@ -9,7 +9,7 @@ npm run build
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
-git add deploy.sh
+git add -A
 git add dist -f
 git commit -m 'deploy'
 
