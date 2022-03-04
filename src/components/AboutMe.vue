@@ -1,9 +1,9 @@
 <template>
-  <div class="container">
+  <div class="container mt-8">
     <div class="row">
       <div class="col"></div>
       <div class="col-10 text-center">
-        <p>
+        <p class="fs-7">
           Hi 😊. I am Amos Choo, hailing from Malaysia. A fresh graduate from
           Monash University Malaysia. I studied Computer Science in my
           university, graduated in June 2022. My favourite Computer Science

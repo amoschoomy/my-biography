@@ -13,3 +13,7 @@ body {
 li:not(:last-child) { 
     margin-bottom: 2rem;  
  }
+
+ .nav-bg {
+   background-color: azure;
+ }
