@@ -15,7 +15,9 @@
     <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
       <div class="collapse navbar-collapse text-center" id="navbarsExample11">
         <div class="navbar-nav">
-          <router-link to="/" class="nav-item nav-link mx-5">Home</router-link>
+          <router-link to="/my-biography" class="nav-item nav-link mx-5"
+            >Home</router-link
+          >
           <router-link to="/about-me" class="nav-item nav-link mx-5"
             >About Me</router-link
           >

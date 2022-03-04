@@ -7,7 +7,7 @@ const routerHistory = createWebHistory();
 
 const routes = [
   {
-    path: "/",
+    path: "/my-biography",
     name: "Home",
     component: HomeVue,
     props: {
